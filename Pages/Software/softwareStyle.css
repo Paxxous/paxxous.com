@@ -1,0 +1,102 @@
+
+a {
+  text-decoration: none;
+}
+
+/* Titles */
+
+
+
+.title {
+  margin: 75px;
+}
+
+.mainTitle {
+  /* font color, size, and position */
+  color: rgb(255, 230, 102);
+
+  font-size: 100px;
+
+  letter-spacing: 0.075em;
+
+  margin-top: 100px;
+
+  text-align: center;
+
+  font-weight: 500;
+}
+
+
+.secondMainTitle {
+  /* font color, size, and position */
+  color: rgb(255, 230, 102);
+
+  font-size: 40px;
+
+  letter-spacing: 0.075em;
+
+  margin-top: 5px;
+
+  text-align: center;
+
+  font-weight: 500;
+}
+
+/* Softare list and their descriptions */
+.softwareWrapper {
+  display: grid;
+
+  grid-gap: 40px;
+
+  margin: 20px;
+
+  justify-content: space-evenly;
+
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.softwareListWrapper {
+  background-color: rgb(62, 62, 80);
+  
+  padding: 10px;
+    
+  border-radius: 15px;
+
+  transition: all .5s linear;
+}
+
+.softwareListWrapper:hover {
+  transition: all .5s linear;
+
+  background-color: rgb(80, 80, 102);
+}
+
+/* The text and descriptions inside of the software lists */
+
+.softwareTitle {
+  font-weight: 700;
+
+  font-size: 25px;
+
+  color: white;
+
+  line-height: 50px;
+}
+
+.softwareDescription {
+  color: rgb(211, 211, 241);
+
+  font-size: 17px;
+
+  font-weight: 500;
+
+  line-height: 50px;
+}
+
+
+/* One time use id's */
+#topics {
+  color: rgb(87, 181, 236);
+
+  font-weight: 600;
+}

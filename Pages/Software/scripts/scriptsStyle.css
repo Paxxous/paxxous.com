@@ -1,0 +1,62 @@
+#softwareProjectsWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+  gap: 75px;
+
+  margin: 75px;
+
+  align-items: center;
+}
+
+#softwareAnnouncement {
+  font-size: 50px;
+
+  margin: 20px;
+
+  font-weight: 500;
+
+  color: rgb(255, 230, 102);
+}
+
+.softwareListPart {
+  border-radius: 10px;
+
+  transition: all .5s linear;
+
+  background-color: rgb(62, 62, 80);
+
+  max-width: 50%;
+
+  padding: 20px;
+  
+  text-decoration: none;
+}
+
+.softwareListPart:hover {
+  transition: all .5s linear;
+
+  border-radius: 10px;
+
+  background-color: rgb(80, 80, 102);
+
+  max-width: 50%;
+
+  padding: 20px;
+  
+  text-decoration: none;
+}
+
+.fullSoftwareName {
+  color: white;
+
+  font-size: 45px;
+}
+
+.softwareDescription {
+  /* word-break: break-all; */
+
+  font-size: 23px;
+
+  color: rgb(211, 211, 241);
+}
