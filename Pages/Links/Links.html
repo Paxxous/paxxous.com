@@ -24,9 +24,9 @@
       <div class="topNavigationWrapper">
 
         <a href="/Pages/Software/software.html"><li id="software">Software</li></a>
-        <a href="#"><li id="blogs">Blogs</li></a>
-        <a href="#"><li id="media">Media</li></a>
-        <a href="#"><li id="tutorials">Tutorials (?)</li></a>
+        <a href="/Pages/Blogs/Blogs.html"><li id="blogs">Blogs</li></a>
+        <a href="/Pages/Media/Media.html"><li id="media">Media</li></a>
+        <a href="/Pages/Tutorials/Tutorials.html"><li id="tutorials">Tutorials (?)</li></a>
         <a href="/Pages/Links/Links.html"><li id="links">Links</li></a>
 
         <!-- logo (?) -->
@@ -37,30 +37,57 @@
       </div>
     </nav>
 
-    <section id="aboutMe">
-      <h1 id="title">About me</h1>
+    <div id="aboutMe">
+      <section>
+        <h1 class="title">About me</h1>
+  
+        <p class="par">
+          On the internet, my name is Paxxous. I'm a small indie developer and animator. I like to write in my free time, and I can play some Guitar and Saxophone. 
+        </p>
+      </section>
+  
+      <section id="qA">
+        <h1 class="title">Q & A</h1>
+  
+        <h2 class="subTitle">What do you use to animate?</h2>
 
-      <p id="par">Hello, my name is paxxous online, and Benjamin in the real world. I'm still finding some things out, but there's one thing that's happening right now :D and that's that you are on my website.</p>
-    </section>
+        <p class="par">
+          I use a bit of software, mostly Adobe Animate (or Flash) for the 2d bits, Blender for 3d, and Davinci Resolve to tie it all together.
+        </p>
+
+        <h2 class="subTitle">How did you make this website?</h2>
+
+        <p class="par">
+          I used all of the defaults, HTML, and CSS primarily, some Javascript for the interactive bits, and that's pretty much it. My hosting supports MySQL, so I want to try and use that.
+        </p>
+
+        <h2 class="subTitle">Want to contact me?</h2>
+
+        <p class="par">
+          I currently don't have a proper email for formal chat or business. I should use the new domain to make a new email, actually... But right now, you can contact me through Discord for any inquiries: <span id="discordId" onclick="copy()">Paxxous#3146</span>.
+        </p>
+      </section>
+    </div>
 
     <nav id="linksWrapper">
       <div id="Github">
         <a href="https://github.com/Paxxous" target="_blank">
-          <img src="/images/logos/Github.svg" height="30" width="30">
+          <img src="/images/logos/Github.svg" height="32" width="32">
       </div>
 
       <div id="YouTube">
         <a href="https://www.youtube.com/channel/UCFVw6QqeUbshvw2vmIv94mg" target="_blank">
-          <img src="/images/logos/YouTube.svg" height="30" width="30">
+          <img src="/images/logos/YouTube.svg" height="32" width="32">
         </a>
       </div>
 
       <div id="Patreon">
         <a href="https://www.patreon.com/Paxxous" target="_blank">
-          <img src="/images/logos/Patreon.svg" height="30" width="30">
+          <img src="/images/logos/Patreon.svg" height="32" width="32">
         </a>
       </div>
     </nav>
 
+    <script src="/scripts/linksCopy.js"></script>
   </body>
 </html>

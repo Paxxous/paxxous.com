@@ -9,24 +9,59 @@
 
   flex-direction: row;
 
-  margin: 10px;
+  margin: 15px;
 }
 
 #aboutMe {
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 
   margin-top: 50px;
+  margin-bottom: 25px;
 
   width: 60%;
 }
 
-#title {
+#discordId {
+  cursor: pointer;
+
+  color: rgb(238, 92, 81);
+
+  font-weight: 800;
+
+  transition: all .3s linear;
+}
+
+#discordId:hover {
+  user-select: none;
+  
+  cursor: pointer;
+
+  color: white;
+
+  font-weight: 800;
+
+  transition: all .3s linear;
+}
+
+.title {
   font-size: 50px;
+
+  margin-top: 10px;
 
   color: rgb(255, 230, 102);
 }
 
-#par {
+.subTitle {
+  margin-top: 10px;
+
+
+  font-size: 35px;
+
+  color: rgb(255, 230, 102);
+}
+
+.par {
   color: white;
 
   font-size: 20px;
