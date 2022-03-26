@@ -9,3 +9,22 @@
 
   text-align: center;
 }
+
+.mediaDescripter {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+
+  margin: auto;
+  width: 50%;
+
+  text-align: left;
+}
+
+.mediaSect {
+  margin-bottom: 50px;
+}
+
+#media {
+  text-align: center;
+}
