@@ -32,3 +32,13 @@
   font-weight: 500;
 
 }
+
+[contentEditable] {
+  color: rgb(118, 214, 118);
+
+  outline: none;
+
+  caret-color: rgb(118, 214, 118);
+
+  word-wrap: break-word;
+}
