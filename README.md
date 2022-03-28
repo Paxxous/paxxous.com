@@ -1,5 +1,3 @@
-screw it this is going open source...
-
-# Welcome to Paxxous V.3!!!!
+# Paxxous v.3.0.1
 
 The third rendition of my website, this time... With color :D and actual proper html.
